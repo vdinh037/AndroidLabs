@@ -9,4 +9,8 @@
     <string name="Switch">What does this do?</string>
     <string name="RadioButton">RadioButton</string>
     <string name="CheckBox">CheckBox</string>
-    </resources>
+    <string name="dialog_message">Do you want to finish the activity?</string>ce
+    <string name="dialog_title">ListItem Activity</string>
+    <string name="ok">Yes</string>
+    <string name="cancel">No</string>
+</resources>
