@@ -47,7 +47,7 @@ public class ChatWindow extends Activity {
 
     private class ChatAdapter extends ArrayAdapter<String> {
 
-        public ChatAdapter(Context ctx) {
+        private ChatAdapter(Context ctx) {
             super(ctx, 0);
         }
 
@@ -62,7 +62,7 @@ public class ChatWindow extends Activity {
         @Override
         public View getView(int position, View convertView, ViewGroup parent){
             LayoutInflater inflater = ChatWindow.this.getLayoutInflater();
-            View result = null;
+            View result;
             if (position%2 == 0)
                 result = inflater.inflate(R.layout.chat_row_incoming, null);
             else
