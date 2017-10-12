@@ -30,6 +30,7 @@ public class StartActivity extends Activity {
             public void onClick(View view) {
                 Intent intent = new Intent(StartActivity.this, ListItemsActivity.class);
                 startActivityForResult(intent, SECOND_ACTIVITY_RESULT_CODE);
+                Log.i(MY_TAG,"New chat window started");
             }
         });
 
