@@ -15,4 +15,9 @@
     <string name="cancel">No</string>
     <string name="chatButton">Start Chart</string>
     <string name="sendButton">Send</string>
+    <string name="currentTemp">Current Temp</string>
+    <string name="maxTemp">Max Temp</string>
+    <string name="minTemp">Min Temp</string>
+    <string name="weatherImage">Weather Image</string>
+    <string name="weatherButton">Weather Forecast</string>
 </resources>
